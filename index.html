@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <title>Prueba Git</title>
 </head>
 <body>
@@ -10,7 +12,23 @@
         <h1>Hola Mundo!</h1>
     </header>
     <main>
-        <input type="text" id="nombre" placeholder="Ingrese su nombre aquí" onchange= saludo()>
+       
+    
+    <div class="cajaLogin">
+        <h3><u>Log in</u></h3>
+        <h4>Nombre de Usuario</h4>
+         <input type="text" id="usuario" placeholder="Ingrese su usuario aquí">
+    
+         <h4>Contraseña</h4>
+         <input type="text" id="contra" placeholder="Ingrese su contraseña aquí">
+        <br>
+         <button class="boton1" id="boton" onclick="botoncito()">Aceptar</button>
+    </div>
+    
+    
+    
+    
+    
     </main>
 
     <script src="script.js"></script>
