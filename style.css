@@ -1,38 +1,12 @@
-body{background-color: rgb(25, 41, 88);}
-h1{color: whitesmoke;}
-.cajaLogin{ 
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    border: 2px white;
-    border-radius: 50px;
-    background-position: center;
-    width: 300px;
-    margin: auto;
-    
-    background-color: rgba(255, 255, 255, 0.295);
-    padding: 20px;
-    color: rgb(255, 255, 255);
-}
-input{
-    width: fit-content;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 25px;
-    padding: 5px;
-}
-::placeholder{
-    color: rgba(56, 48, 48, 0.589);
+nav{
+    background-color: rgb(59, 59, 87);
+    height: auto;
+    width: auto;
 }
 
-h3{
-    margin: 10px;
-}
-h4{
-    margin: 10px;
-}
-
-.boton1{
-    margin: 10px;
-    margin-top: 20px;
+img{
+    height: 100px;
+    width: auto;
+    position: relative;
+    left: 20px;
 }
